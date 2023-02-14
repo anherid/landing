@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu, "sans-serif";
+  /* border: 1px solid red; */
+}
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  box-shadow: 0 1px 8px #ddd;
+}
+#nav-title {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+header a {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s ease 0s;
+}
+header a:hover {
+  color: #b2dfdb;
+}
+
+.intro {
+  background-color: #1f2937;
+}
+.intro-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 100px;
+  gap: 30px;
+}
+.intro-content-left {
+  width: 50%;
+}
+.intro-content-left h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin-bottom: 10px;
+}
+.intro-content-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+button {
+  font-size: 18px;
+  background-color: #3882f6;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+.intro img {
+  width: 50%;
+  border-radius: 15px;
+}
+
+.feature {
+  padding: 50px 100px;
+}
+.feature h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+.feature-list-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-list {
+  text-align: center;
+}
+.feature-list img {
+  border-radius: 15px;
+  border: 5px solid #3882f6;
+  width: 100px;
+  height: 100px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 100px;
+}
+.quote-content p {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.call {
+  padding: 100px 100px;
+}
+.call-wrap {
+  border-radius: 10px;
+  background-color: #3882f6;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.call-wrap button {
+  border: 2px solid #ffffff;
+}
+.call-wrap h3 {
+  font-size: 24px;
+}
+
+footer {
+  background-color: #1f2937;
+  padding: 20px 100px;
+  text-align: center;
+}
