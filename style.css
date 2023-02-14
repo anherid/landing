@@ -10,7 +10,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 100px;
+  padding: 20px 150px;
   box-shadow: 0 1px 8px #ddd;
 }
 #nav-title {
@@ -38,7 +38,7 @@ header a:hover {
 .intro-content {
   display: flex;
   justify-content: space-between;
-  padding: 100px 100px;
+  padding: 100px 150px;
   gap: 30px;
 }
 .intro-content-left {
@@ -67,7 +67,7 @@ button {
 }
 
 .feature {
-  padding: 50px 100px;
+  padding: 50px 200px;
 }
 .feature h1 {
   text-align: center;
@@ -92,21 +92,22 @@ button {
 
 .quote {
   background-color: #e5e7eb;
-  padding: 100px 100px;
+  padding: 100px 200px;
 }
 .quote-content p {
   color: #1f2937;
   font-size: 36px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .call {
-  padding: 100px 100px;
+  padding: 100px 150px;
 }
 .call-wrap {
   border-radius: 10px;
   background-color: #3882f6;
-  padding: 50px 100px;
+  padding: 30px 50px;
   display: flex;
   justify-content: space-between;
 }
