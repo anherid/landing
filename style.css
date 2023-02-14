@@ -89,6 +89,9 @@ button {
   width: 100px;
   height: 100px;
 }
+.feature-list p {
+  font-size: 18px;
+}
 
 .quote {
   background-color: #e5e7eb;
